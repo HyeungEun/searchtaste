@@ -1,9 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Loading from './Components/Loading';
-import Main from './Components/Pages/Main';
-import Home from './Components/Home';
 import { createGlobalStyle } from 'styled-components';
+
+import Home from './Components/Home';
 
 const GlobalStyle =createGlobalStyle`
   body {
